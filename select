@@ -18,3 +18,11 @@ List the salary of all the employees.
 
 --Solution
 SELECT ename,salary FROM employee;
+
+|  Field | Type |
+|-------|-----|
+| ID  | NUMBER |
+| NAME | VARCHAR2(17)   |
+| COUNTRY CODE  | VARCHAR2(3)  |
+| DISTRICT |  VARCHAR2(20) |
+| POPULATION | NUMBER |
