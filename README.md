@@ -1,5 +1,5 @@
 # SQL-Hackathon
-Hackathon Project on SQL</br>
+My SQL queries for Hackathon Project</br>
 The database are related to a E-commerce company </br>
 and the Database Schema are-</br>
 ● Employee : Stores employee details</br>
