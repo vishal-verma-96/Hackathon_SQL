@@ -91,6 +91,5 @@ The Employee table is described as follows:
 
 **Solution**
 ```sql
-SELECT ename,salary FROM employee WHERE salary = (SELECT MAX(salary) FROM employee); 
-                   
+SELECT ename,salary FROM employee WHERE salary = (SELECT MAX(salary) FROM employee);               
 ```
