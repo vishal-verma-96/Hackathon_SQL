@@ -1,7 +1,7 @@
 # SQL-Hackathon
 My SQL queries for Hackathon Project</br>
 The database are related to a E-commerce company </br>
-and the Database Schema are-</br>
+and the Database Schemas are-</br>
 ● Employee : Stores employee details</br>
 ● Department : Stores department details of employees</br>
 ● Dept_locations : Stores department locations</br>
