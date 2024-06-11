@@ -1,5 +1,4 @@
---Problem Statement 
-/*
+***Problem Statement***</br>
 **List the salary of all the employees.**
 
 The Employee table is described as follows:
@@ -14,33 +13,30 @@ The Employee table is described as follows:
 | SALARY | int(7) |
 | MGRSRNO | char(6) |
 | DNO | int(7) |
+</br>
+*where Ename is Employee name*
 
-where Ename is Employee name
-*/
 
 **Solution**
 ```sql
 SELECT ename,salary FROM employee;
 ```
 
---Problem Statement 
-/*
+***Problem Statement*** </br>
 **Display the names of all employees with any “A” at any place of the name.**
 
 The Employee table is described as follows:
-+-------------+----------+
-| Field       | Type     |
-+-------------+----------+
-| ENAME       | char(20) |
-| ESRNO       | char(7)  |
-| BDATE       | date     |
-| ADDRESS     | char(20) |
-| SEX         | char(20) |
-| SALARY      | int(7)   |
-| MGRSRNO     | char(6)  |
-| DNO         | int(7)   |
-+-------------+----------+
-*/
+
+| Field | Type |
+|-----|-----|
+| ENAME | char(20) |
+| ESRNO | char(7) |
+| BDATE | date |
+| ADDRESS | char(20) |
+| SEX | char(20) |
+| SALARY | int(7) |
+| MGRSRNO | char(6) |
+| DNO | int(7) |
 
 **Solution**
 ```sql
