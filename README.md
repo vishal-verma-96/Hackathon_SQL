@@ -7,3 +7,6 @@ and the Database Schemas are-</br>
 ● Dept_locations : Stores department locations</br>
 ● Project : Stores details of projects employees are working on</br>
 ● Works_on : Stores working hours and other details of employees
+</br>
+
+**Notice:***The DB runs only on MySQL RDBMS means that the keywords are related to MySQL Database.*
