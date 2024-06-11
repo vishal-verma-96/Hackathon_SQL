@@ -3,18 +3,18 @@
 **List the salary of all the employees.**
 
 The Employee table is described as follows:
-+-------------+----------+
-| Field       | Type     |
-+-------------+----------+
-| ENAME       | char(20) |
-| ESRNO       | char(7)  |
-| BDATE       | date     |
-| ADDRESS     | char(20) |
-| SEX         | char(20) |
-| SALARY      | int(7)   |
-| MGRSRNO     | char(6)  |
-| DNO         | int(7)   |
-+-------------+----------+
+
+|   Field   |   Type  |
+|-----|-----|
+| ENAME | char(20) |
+| ESRNO | char(7) |
+| BDATE | date |
+| ADDRESS | char(20) |
+| SEX | char(20) |
+| SALARY | int(7) |
+| MGRSRNO | char(6) |
+| DNO | int(7) |
+
 where Ename is Employee name
 */
 
