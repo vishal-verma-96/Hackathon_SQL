@@ -13,9 +13,8 @@ The Employee table is described as follows:
 | SALARY | int(7) |
 | MGRSRNO | char(6) |
 | DNO | int(7) |
-</br>
-*where Ename is Employee name*
 
+*where Ename is Employee name*</br>
 
 **Solution**
 ```sql
