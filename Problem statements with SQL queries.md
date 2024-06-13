@@ -122,7 +122,8 @@ The Employee and Department table are described as follow:
 
 **Solution**
 ```sql
-SELECT ename,address,dnumber,dname                                                              FROM employee
+SELECT ename,address,dnumber,dname
+FROM employee
 JOIN department ON employee.dno = department.dnumber;   
 ```
 
