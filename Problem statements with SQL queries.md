@@ -219,10 +219,10 @@ The Employee and Works_On table are described as follow:
 
 **Solution**
 ```sql
-SELECT ename,sex,SUM(hours) as total_working_hours                                                        
-FROM employee                                                                                                                                         
-JOIN works_on ON employee.esrno = works_on.esrno                                                                  
-WHERE sex = 'F'                                                                                                                                  
+SELECT ename,sex,SUM(hours) as total_working_hours
+FROM employee
+JOIN works_on ON employee.esrno = works_on.esrno
+WHERE sex = 'F'
 GROUP BY ename,sex;                        
 ```
 
